@@ -170,8 +170,28 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.port-link {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.port-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
 
 }
+
+
 
 .portfolio-lists {
     width: calc((100% - 48px) / 3);
@@ -186,7 +206,8 @@ body {
 .portfolio-button:focus {
     background-color: var(--batton-active);
     color: var(--batton-text-cl);
-    border: 1px solid transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .header-line:hover,
@@ -212,6 +233,26 @@ body {
     background-repeat: no-repeat;
     padding: 188px 0;
 }
+
+.main-icons {
+    margin-bottom: 8px;
+
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color-bat-port);
+    border-radius: 4px;
+    border: 102px 24px;
+
+}
+
+.main-svg {
+    width: 59px;
+    height: 64px;
+    fill: #F4F4FD;
+}
+
 
 .main-header {
     max-width: 496px;
@@ -499,6 +540,11 @@ body {
     border-radius: 50%;
 }
 
+.team-icons:hover,
+.team-icons:focus {
+    background-color: #31D0AA;
+}
+
 .team-icons-svg {
     width: 16px;
     height: 16px;
@@ -509,4 +555,51 @@ body {
     width: 24px;
     height: 24px;
 
+}
+
+.castomers-container {
+    padding: 120px 0;
+}
+
+.castomers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.castomers-header {
+    margin-bottom: 72px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color);
+}
+
+.castomers-list-icons {
+    width: calc((100%-24*5)/6);
+}
+
+.castovers-icon {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+
+}
+
+.castovers-icon:hover,
+.castovers-icon:focus {
+    color: #404BBF;
+    border: 1px solid #404BBF;
+}
+
+.castomer-icons-svg {
+    width: 104px;
+    height: 56px;
 }
