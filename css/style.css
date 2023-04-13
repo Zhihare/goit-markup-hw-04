@@ -201,7 +201,15 @@ body {
 
 /*backgraund-color on sections*/
 .main-section-bus {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--backgr-main-sect);
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office\ 1.jpg);
+
+    background-repeat: no-repeat;
     padding: 188px 0;
 }
 
