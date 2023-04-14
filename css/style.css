@@ -595,7 +595,7 @@ body {
 
 .castovers-icon:hover,
 .castovers-icon:focus {
-    color: #404BBF;
+    fill: #404BBF;
     border: 1px solid #404BBF;
 }
 
