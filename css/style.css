@@ -194,9 +194,16 @@ body {
     border-radius: 4px;
 }
 
-.header-line:hover,
-.header-line:focus {
+.header-line:hover::after,
+.header-line:focus::after {
+    content: "";
+    margin-top: 0;
+    width: 100%;
+    height: 4px;
+    background: #404BBF;
+    border-radius: 2px;
     color: var(--batton-active);
+
 }
 
 .adress-link:hover,
@@ -343,6 +350,7 @@ body {
 
 .header-line {
     display: flex;
+    flex-wrap: wrap;
     padding: 24px 0;
 
     font-weight: 500;
@@ -352,6 +360,7 @@ body {
     color: var(--color);
     list-style: none;
 }
+
 
 .header-adress {
     display: flex;
