@@ -181,7 +181,7 @@ body {
 .port-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08)
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -234,7 +234,7 @@ body {
     margin: 0 auto;
     /* background-color: var(--backgr-main-sect); */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\ 1.jpg);
+        url(../images/people1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
