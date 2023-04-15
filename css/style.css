@@ -232,7 +232,7 @@ body {
 .main-section-bus {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: var(--backgr-main-sect);
+    /* background-color: var(--backgr-main-sect); */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office\ 1.jpg);
     background-position: center;
@@ -251,7 +251,7 @@ body {
     margin-bottom: 8px;
 }
 
-.main-svg {}
+
 
 
 .main-header {
@@ -570,7 +570,7 @@ body {
     fill: #F4F4FD;
 }
 
-.team-icons-svg.footer-team-icons {}
+
 
 .footer-icons {
     display: flex;
@@ -586,6 +586,10 @@ body {
 .footer-icons:hover,
 .footer-icons:focus {
     background-color: #31d0aa;
+}
+
+.footer-team-icons {
+    fill: #F4F4FD;
 }
 
 .castomers-container {
@@ -623,7 +627,7 @@ body {
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: #afb1b8;
+    color: #8e8f99;
 }
 
 .castovers-icon:hover,
